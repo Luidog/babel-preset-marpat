@@ -1,11 +1,13 @@
-# babel-preset-camo
+# babel-preset-marpat
 
-> Babel preset for all es2015 plugins supported by Camo
+> This is a babel preset for marpat. This preset will allow you to use marpat with babel. Initial work done by for this preset done by [Scott Robison](https://github.com/scottwrobinson). I have simply forked his camo preset and modified it to match the marpat repo and make it easier to find. 
+
+Testing to be added in the future.
 
 ## Install
 
 ```sh
-$ npm install --save-dev babel-preset-camo
+$ npm install --save-dev babel-preset-marpat
 ```
 
 ## Usage
@@ -16,20 +18,20 @@ $ npm install --save-dev babel-preset-camo
 
 ```json
 {
-  "presets": ["camo"]
+  "presets": ["marpat"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel script.js --presets camo 
+$ babel script.js --presets marpat 
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  presets: ["camo"]
+  presets: ["marpat"]
 });
 ```

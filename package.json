@@ -1,20 +1,15 @@
 {
-  "name": "babel-preset-camo",
+  "name": "babel-preset-marpat",
   "version": "0.0.1",
-  "description": "Babel preset for all es2015 plugins supported by Camo",
-  "author": {
-    "name": "Scott Robinson",
-    "email": "s.w.robinson@gmail.com",
-    "url": "http://stackabuse.com"
-  },
+  "description": "Babel preset for marpat. This allows marpat to be used with babel",
+  "author": "Lui de la Parra",
   "keywords": [
     "babel",
     "preset",
-    "camo"
+    "marpat"
   ],
-  "homepage": "http://stackabuse.com",
   "license": "MIT",
-  "repository": "https://github.com/scottwrobinson/babel-preset-camo",
+  "repository": "https://github.com/luidog/babel-preset-marpat",
   "main": "index.js",
   "dependencies": {
     "babel-plugin-transform-es2015-template-literals": "^6.3.13",
